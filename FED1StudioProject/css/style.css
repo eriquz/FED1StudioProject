@@ -1,0 +1,727 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;800&display=swap');
+
+
+body {
+    width: 95%;
+    margin: auto;
+    background-color: #ddd;
+    font-family: 'EB Garamond', serif;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f1da36+12,f1da36+25,f1da36+34,fefcea+65,f1da36+84 */
+    background: rgb(241,218,54); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(241,218,54,1) 12%, rgba(241,218,54,1) 25%, rgba(241,218,54,1) 34%, rgba(254,252,234,1) 65%, rgba(241,218,54,1) 84%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(241,218,54,1) 12%,rgba(241,218,54,1) 25%,rgba(241,218,54,1) 34%,rgba(254,252,234,1) 65%,rgba(241,218,54,1) 84%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(241,218,54,1) 12%,rgba(241,218,54,1) 25%,rgba(241,218,54,1) 34%,rgba(254,252,234,1) 65%,rgba(241,218,54,1) 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1da36', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+/*Imported Fonts*/
+
+
+/*
+    font-family: 'Unica One', cursive;
+*/
+/*#region main*/
+
+p {
+    font-size: 1.2em;
+}
+
+.pull-right {
+    font-weight: bold;
+    color: black;
+    padding: 10px; /*add clickable area around the hamburger menu*/
+    text-decoration: none;
+    font-size: 2em;
+    float: right;
+    display: none;
+}
+
+.mainWrapper {
+    padding: 1em 1em 0 1em;
+}
+
+.mainWrapper {
+    min-height: 60vh;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+footer {
+    border: 2px solid black;
+    margin: auto;
+    width: 85%;
+    margin-bottom: 1em;
+}
+
+ul.footerul li {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+}
+
+ul.footerul {
+    display: inline-block;
+    float: right;
+    margin: auto;
+    padding: .5em;
+}
+
+    ul.footerul i {
+        color: black;
+        padding: 1.2em .2em 0 .2em;
+    }
+
+
+
+
+p.footer {
+    padding: .5em;
+    display: inline-block;
+}
+
+div.footer img {
+    width: 30px;
+    height: 30px;
+}
+
+.clear {
+    clear: both;
+}
+/*#endregion*/
+
+/*#region Navigation*/
+
+
+nav {
+    border-top: 4px solid black;
+    background-color: #ffefac;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+    nav ul {
+        margin-bottom: 0;
+    }
+
+        nav ul li {
+            display: inline-block;
+            padding: 1em;
+        }
+
+
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 24px;
+        transition: .20s ease;
+    }
+
+.headerSection {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: #f2f086;
+}
+
+h1#navHeader {
+    font-size: 25px;
+    margin: 0;
+    padding: .7em;
+    display: none;
+}
+
+nav ul li a:hover {
+    font-size: 26px;
+    letter-spacing: .1em;
+    color: white;
+}
+
+
+#headerOverlay {
+    background-image: url(/images/TechWorld.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 3% center;
+    padding: 2em;
+    background-color: #f2f086;
+    color: white;
+    margin-top: 2em;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+
+.margin {
+    margin: 7px 0 7px 175px;
+    padding-top: .50em;
+}
+
+body header div#headerOverlay h2, div#headerOverlay p {
+    margin: 7px 0 7px 175px;
+    color: black;
+    font-family: 'EB Garamond', serif;
+}
+
+header h2 {
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: .1em;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+.active {
+    letter-spacing: .05em;
+    font-size: 26px;
+    color: black;
+    text-decoration: underline;
+}
+
+div.logoSection ul {
+    list-style-type: none;
+}
+
+    div.logoSection ul li {
+        float: right;
+    }
+
+.logoSection a i {
+    text-decoration: none;
+}
+
+
+div.logoSection {
+    margin: 0em;
+}
+
+    div.logoSection i {
+        margin-top: 1em;
+        color: black;
+        padding: 0 .2em;
+    }
+
+
+
+/*#endregion*/
+
+/*#region index.html*/
+
+div.wrap {
+    width: 80%;
+    margin: auto;
+}
+
+img.pic1 {
+    float: left;
+    margin-right: 2em;
+}
+
+div.topSection p, div.topSection h2 {
+    text-align: center;
+    margin: 0;
+}
+
+div.bottomSection {
+    margin-bottom: 3em;
+}
+
+    div.bottomSection p, div.bottomSection h2 {
+        text-align: center;
+        margin: 0;
+    }
+
+    div.bottomSection h2, div.topSection h2 {
+        padding-top: 1em;
+    }
+
+
+img.pic2 {
+    max-height: 250px;
+    max-width: 250px;
+    float: right;
+    margin-left: 2em;
+}
+
+div.topSection {
+    display: inline-block;
+}
+
+#mainColumn {
+    width: 76%;
+    margin: auto;
+}
+
+#Success {
+    padding: 0 0 25px 0;
+    float: left;
+    height: 150px;
+    margin-right: 1.5em;
+}
+
+article#aboutSection section h2 {
+    text-decoration: underline;
+    margin-bottom: 0;
+    overflow: auto;
+}
+
+article#aboutSection section p {
+    padding-top: .75em;
+    text-align: left;
+    overflow: auto;
+}
+
+#section1 {
+    float: right;
+}
+
+h3#special {
+    margin: 2em 0;
+    font-size: 1.8em;
+}
+
+/*#endregion*/
+
+/*#region CLASSES.HTML*/
+div.galleryItem {
+    margin: 5px;
+    border: 2px solid black;
+    display: inline-block;
+    width: 200px;
+    background-color: white;
+    height: 170px;
+    vertical-align: bottom;
+}
+
+    div.galleryItem:hover {
+        border: 2px solid rgb(181,226,255);
+        cursor: pointer;
+        transition: .2s;
+    }
+
+    div.galleryItem img {
+        width: 70%;
+        height:70%;
+    }
+
+    /*div.galleryItem div.description {
+        padding: 1em 5px;
+    }*/
+
+#imageGallery {
+    background-color: #f2f086;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+article#imageGallery h1 {
+    margin-top: 0;
+}
+
+
+/*article#imageGallery h1 {
+    font-size: 2em;
+    padding-top: 1em;
+    color: white;
+    }
+*/
+/*Table CSS*/
+table, tr, td, th {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 2em;
+    width: 50%;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    padding: .3em;
+}
+
+thead {
+    background-color: rgb(181,226,255);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+.background {
+    background-image: url(/images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid rgb(241,218,54);
+    background: #ffefac url("images/ui-bg_glass_80_d7ebf9_1x400.png") 50% 50% repeat-x;
+    font-weight: bold;
+    color: #2779aa;
+}
+/*#endregion*/
+
+
+/*#region TEAM*/
+.teamPicture {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 50px;
+    border-radius: 50%;
+}
+
+
+article.team section {
+    margin: 0 auto 0;
+    padding: 0 3em 0;
+}
+
+article.team p {
+    font-size: 1.3em;
+}
+
+#rightColumn {
+    float: right;
+    width: 15%;
+    margin: 0 auto;
+}
+
+#leftColumn {
+    width: 83%;
+    border-right: 2px solid black;
+}
+
+article.team h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 0;
+    padding-top: 1em;
+}
+
+aside#rightColumn ul li {
+    line-height: 2.5;
+}
+
+    aside#rightColumn ul li a {
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+        aside#rightColumn ul li a:hover {
+            font-size: 19px;
+            letter-spacing: .1em;
+            color: black;
+        }
+
+aside#rightColumn ul {
+    list-style-type: none;
+}
+
+
+
+.wrapper {
+    background-color: white;
+    height: 100%;
+}
+
+#endSection {
+    margin-bottom: 0;
+    padding-bottom: 3em;
+}
+
+section#leftColumn article section {
+    margin-bottom: 10em;
+}
+
+.backToTop {
+    text-align: center !important;
+    margin: auto;
+}
+/*#endregion*/
+
+/*#region CONTACT*/
+ul.contactPage li {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 1em;
+    text-align: left;
+    list-style: none;
+    padding: 0.8em 0 0.8em 0;
+}
+
+article#contactP {
+    margin: auto;
+}
+
+ul.contactPage {
+    padding: 0;
+    margin-top: 0;
+    width: 48%;
+    margin: auto;
+}
+
+section.contactList h1 {
+    margin-top: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+section.contactList {
+    margin-bottom: 10em;
+}
+/*#endregion*/
+
+#accordion {
+    margin-bottom: 2em;
+}
+
+/*#region media*/
+@media screen and (max-width: 1024px) {
+
+    nav ul {
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    /*div#headerOverlay {
+        padding: 1em;
+    }*/
+
+    .section1 {
+        display: block;
+        margin: 2em;
+        padding: 2em;
+        width: 100%;
+    }
+
+    /*.section2 {
+        display: block;
+        margin: auto;
+        padding: 2em;
+        width: 100% !important;
+    }*/
+
+    article#chooseUs section {
+        display: block;
+        margin: auto;
+        padding: 2em;
+        width: 100%;
+    }
+
+    article#chooseUs {
+        width: 40%;
+        float: left;
+    }
+
+    #laptopTable {
+        height: 200px;
+    }
+
+    #laptopOther {
+        height: 200px;
+    }
+
+    article#chooseUsTwo {
+        width: 40%;
+    }
+
+        article#chooseUsTwo section {
+            width: 100%;
+            margin: auto;
+            height: 100%;
+        }
+
+
+    h3#special {
+        font-size: 1.5em;
+        margin-bottom: .3em;
+    }
+
+    article#chooseUsTwo h2, p {
+        text-align: center;
+        padding-left: 2em;
+    }
+
+    article#chooseUs h2, p {
+        padding-right: 2em;
+        text-align: center;
+    }
+
+    div.footer {
+        margin-top: 8em;
+    }
+
+    #imageGallery {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    article.team p {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    #rightColumn {
+        width: 20%;
+    }
+
+    #leftColumn {
+        width: 78%;
+    }
+
+    #teamFooter {
+        margin-top: 0;
+    }
+}
+/*#endregion*/
+
+
+
+
+@media screen and (max-width: 1519px) {
+    article#chooseUs section {
+        width: 100%;
+        margin: auto;
+    }
+
+    article#chooseUsTwo section {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+/*#endregion*/
+@media screen and (max-width: 1220px) {
+
+    #laptopTable, #laptopOther {
+        float: none;
+        margin: auto;
+        text-align: center;
+    }
+
+    article#chooseUs h2, article#chooseUs p {
+        text-align: center;
+    }
+
+
+    article#chooseUs {
+        margin: auto;
+    }
+}
+
+
+/*#region*/
+
+
+/*#endregion*/
+
+/*#region mobile*/
+@media screen and (max-width: 850px) {
+
+    body {
+        width: 100%;
+    }
+
+    .logoSection {
+        display: none;
+    }
+
+    div#headerOverlay {
+        display: none;
+    }
+
+    #navBar {
+        display: none;
+    }
+
+        #navBar.expanded {
+            display: block;
+        }
+
+            #navBar.expanded li {
+                display: block;
+                padding: 0;
+            }
+
+                #navBar.expanded li:hover {
+                    background-color: #192841;
+                    transition: .20s ease;
+                }
+
+                #navBar.expanded li a {
+                    display: block;
+                    height: 2em;
+                    padding-top: .8em;
+                }
+
+
+
+
+
+    h1#navHeader {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .pull-right {
+        display: inline-block;
+    }
+
+    section.section1 {
+        float: left;
+    }
+
+    article#chooseUs section.section1 {
+        margin: auto;
+        text-align: center;
+    }
+
+    article#chooseUs section {
+        margin: auto;
+        text-align: center;
+    }
+
+    img.pic1, img.pic2 {
+        max-width: 300px;
+        max-height: 300px;
+        float: none;
+        margin: 0;
+    }
+
+    div.topSection h2, div.topSection p, div.bottomSection p, div.bottomSection h2 {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+
+/*#endregion*/
